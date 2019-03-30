@@ -1,0 +1,51 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #222;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: linear-gradient(to right, #a25b5b, #692e4c);
+    padding: 1.5em 2em;
+    font-size: 1.6em;
+}
+
+header h1 {
+    margin-top: 0;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 50px;
+}
+
+.header-top > a {
+    color: inherit;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav > a {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, .5);
+}
