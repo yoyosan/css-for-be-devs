@@ -1,0 +1,89 @@
+body,
+html {
+    height: 100%; /* need to set it like this because the body will take only as much as it needs to render elements */
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+    width: 475px;
+    height: 258px;
+    display: flex;
+    border-radius: 10px;
+}
+
+.card-left,
+.card-right {
+    padding: 20px;
+}
+
+.card-left {
+    background: linear-gradient(to bottom, #21c8f6, #637bff);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.card-skill-button {
+    background: rgba(0, 0, 0, .4);
+    text-decoration: none;
+    color: inherit;
+    font-size: .7em;
+    padding: 3px 25px;
+    border-radius: 9999px;
+}
+
+.card-difficulty {
+    font-size: .8em;
+}
+
+.card-right {
+    color: #888;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    color: #222;
+    font-size: 1.7em;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.card-title > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-excerpt {
+    flex: 1;
+}
+
+.card-meta {
+    display: flex;
+    font-size: 0.8em;
+}
+
+.card-meta > div:first-child {
+    margin-right: 1em;
+}
+
+.card-meta > div {
+    display: flex;
+    align-items: center;
+}
+
+.card-meta > div > img {
+    margin-right: 8px;
+}

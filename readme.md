@@ -19,3 +19,9 @@ An utility class is a class that:
 
 The css property `flex: 1, 2, 3, etc.` will allow the component to
 take twice, 3 times as much space than the others. 
+
+## Episode 3: Workshop - Card Design
+
+Like episode 1 but with more tinkering.
+
+When you set `flex-direction: column` the axis for `align-items: center` reverses.
