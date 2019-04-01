@@ -25,3 +25,7 @@ take twice, 3 times as much space than the others.
 Like episode 1 but with more tinkering.
 
 When you set `flex-direction: column` the axis for `align-items: center` reverses.
+
+## Episode 4: Refactoring to Utility Classes and Tailwind
+
+See https://tailwindcss.com/docs/what-is-tailwind/
