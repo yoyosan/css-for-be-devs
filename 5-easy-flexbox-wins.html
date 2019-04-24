@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Easy Flexbox Wins</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="container mx-auto">
+
+    <div class="border-b py-8">
+        <h1 class="mb-6 text-grey-dark text-sm font-bold tracking-wide uppercase">Instant Navigation</h1>
+
+<!--
+        <nav class="bg-blue-lightest py-4 px-4 flex justify-between">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Our mission</a>
+            <a href="#">Contact</a>
+        </nav>
+-->
+
+        <!-- Equal amount of space in-between links: flex justify-between -->
+        <nav class="bg-blue-lightest py-4 px-4 flex justify-between">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Our mission</a>
+            <a href="#">Contact</a>
+        </nav>
+    </div>
+
+    <div class="border-b py-8">
+        <h1 class="mb-6 text-grey-dark text-sm font-bold tracking-wide uppercase">Split Nav</h1>
+
+<!--
+        <nav class="bg-blue-lightest py-4 px-4">
+            <a href="#" class="px-4">Home</a>
+            <a href="#" class="px-4">About</a>
+            <a href="#" class="px-4">Our mission</a>
+            <a href="#" class="px-4">Contact</a>
+        </nav>
+-->
+
+        <!-- Align 2 links to the left and 2 to the right. -->
+        <nav class="bg-blue-lightest py-4 px-4 flex justify-between">
+            <div>
+                <a href="#" class="px-4">Home</a>
+                <a href="#" class="px-4">About</a>
+            </div>
+            <div>
+                <a href="#" class="px-4">Our mission</a>
+                <a href="#" class="px-4">Contact</a>
+            </div>
+        </nav>
+    </div>
+
+    <div class="border-b py-8">
+        <h1 class="mb-6 text-grey-dark text-sm font-bold tracking-wide uppercase">Align Image With Text</h1>
+
+<!--
+        <div>
+            <img src="http://via.placeholder.com/350x150" alt="">
+
+            <div>
+                <h3 class="mb-4">My Trip To...</h3>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolor magna aliqua.
+                </p>
+            </div>
+        </div>
+-->
+        <div class="flex items-center">
+            <img src="http://via.placeholder.com/350x150" alt="" class="mx-4">
+
+            <div>
+                <h3 class="mb-4">My Trip To...</h3>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolor magna aliqua.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="border-b py-8">
+        <h1 class="mb-6 text-grey-dark text-sm font-bold tracking-wide uppercase">Perfectly Centered Text</h1>
+
+<!--
+        <div class="bg-grey-light p-6">
+            <div>
+                <h3 class="mb-4">Flexbox is Amazing</h3>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolor magna aliqua.
+                </p>
+            </div>
+        </div>
+-->
+        <div class="bg-grey-light p-6 w-64 h-64 flex items-center justify-center">
+            <div>
+                <h3 class="mb-4">Flexbox is Amazing</h3>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolor magna aliqua.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+ <div class="border-b py-8">
+        <h1 class="mb-6 text-grey-dark text-sm font-bold tracking-wide uppercase">Sticky Footer</h1>
+
+<!--
+        <div class="bg-grey-light p-6">
+            <div>
+                <h3 class="mb-4">Flexbox is Amazing</h3>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolor magna aliqua.
+                </p>
+            </div>
+        </div>
+-->
+     <a href="5-easy-flexbox-wins-sticky.html">Click me</a>
+
+    </div>
+
+</body>

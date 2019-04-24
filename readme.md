@@ -29,3 +29,11 @@ When you set `flex-direction: column` the axis for `align-items: center` reverse
 ## Episode 4: Refactoring to Utility Classes and Tailwind
 
 See https://tailwindcss.com/docs/what-is-tailwind/
+
+## Episode 5: Easy Flexbox Wins
+
+In order to have blocks to the left and right, always wrap them
+inside a div. See second and third examples.
+
+See an example on how to create a sticky footer for a page with
+variable content.
