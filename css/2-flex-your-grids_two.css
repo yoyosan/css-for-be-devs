@@ -8,8 +8,7 @@ header {
     padding: 30px;
 }
 
-.flex,
-.row {
+.flex, .row {
     display: flex;
     margin-left: -10px;
     margin-right: -10px;
@@ -21,9 +20,11 @@ header {
 }
 
 .box {
-    background: #e3e3e3;
+    background-color: #e3e3e3;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    padding: 30px;
 }

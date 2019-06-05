@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Building a navigation layout</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700">
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+    
+    <style>
+        
+        html, body {
+            font-family: 'Open Sans', sans-serif;
+            height: 100%;
+        }
+
+        a {
+            text-decoration: none;
+            color: #222;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+/*            max-width: 1200px;*/
+        }
+        
+        .container > div {
+            padding: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>This is a test</div>
+        <div>This is another test</div>
+        <div>This is another test 2</div>
+        <div>This is another test 3</div>
+    </div>
+    
+    <div class="container">
+        <div>This is a test</div>
+        <div>This is another test</div>
+        <div>This is another test 2</div>
+        <div>This is another test 3</div>
+    </div>
+    
+</body>
+</html>
