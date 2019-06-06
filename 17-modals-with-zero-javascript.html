@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Modals with Zero Javascript</title>
+
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"rel="stylesheet">
+
+    <style type="text/css">
+    	.overlay {
+    		background: rgba(0, 0, 0, .7);
+    	}
+		.overlay:target {
+			visibility: visible;
+		}
+		.overlay .modal {
+			width: 600px;
+			max-width: 80%;
+			min-height: 50%;
+		}
+
+		.modal .close {
+			top: 15px;
+			right: 15px;
+		}
+    </style>
+</head>
+<body>
+
+	<ul class="list-disc list-inside absolute" style="left: 30px; top: 50px;">
+		<li>
+			<a href="#join-modal" class="button text-bold text-blue-500 absolute">Join</a>
+		</li>
+		<li>
+			<a href="#leave-modal" class="button text-bold text-blue-500 absolute">Leave</a>
+		</li>
+	</ul>
+	
+
+	<div id="join-modal" class="overlay invisible absolute inset-0 flex items-center justify-center">
+		<a href="#" class="absolute w-full h-full"></a>
+		<div class="modal rounded-lg bg-white relative p-6">
+			<h1 class="text-3xl mb-4">Pick a plan</h1>
+
+			<p class="text-xl">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+
+			<a href="#" class="close absolute top-0 right-0 text-gray-600">&#10005;</a>
+		</div>
+	</div>
+
+	<div id="leave-modal" class="overlay invisible absolute inset-0 flex items-center justify-center">
+		<a href="#" class="absolute w-full h-full"></a>
+		<div class="modal rounded-lg bg-white relative p-6 flex flex-col justify-between">
+			<h1 class="text-3xl mb-4">Leaving so soon?</h1>
+
+			<p class="text-xl flex-1">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+
+			<a href="#" class="close absolute top-0 right-0 text-gray-600">&#10005;</a>
+
+			<a href="#join-modal" class="text-2xl text-gray-500">Join up</a>
+		</div>
+	</div>
+
+</body>
+</html>

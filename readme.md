@@ -142,3 +142,19 @@ Using tailwind:
 ```
 
 You can check on what browsers a feature is supported by checking [caniuse.com](https://caniuse.com/#search=sticky).
+
+## Episode 16: Wield Complete Control Over the order
+
+Use the `order` css property to determine the order of elements in a container.
+
+The base/default value for any element is `0`, the elements being rendered as they<br>
+are written in the html.
+
+```css
+.elem { order: 1; }
+.elem2 { order: 2; }
+.elem3 { order: 3; }
+```
+
+The downside to this is that it locks your css into place so, when you need to add<br>
+any children, you need to think how you adjust the existing values.
